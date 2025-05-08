@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Homework Assistant - Prototype</title>
+  <link rel="stylesheet" href="WidgetStyle.css">
+</head>
+<body>
+
+  <div class="section" id="update">
+    <h2>Progress so far</h2>
+    <p>My personal notes goes here.</p>
+    <p>For now, just get the chatbox below to run</p>
+    <textarea rows="5" placeholder="Write your notes here..."></textarea>
+  </div>
+
+  <div class="section" id="AI-chatbox">
+    <h2>AI Interaction Window</h2>
+    <input type="text" id="userInput" placeholder="Ask the AI a question..." />
+    <button onclick="handleUserInput()">Send</button>
+    
+  </div>
+
+  <script>
+    function handleUserInput() {
+    const arrayOfAnswers = [`I cannot provide an answer to this`,`You have the right spirit, even if you have the wrong idea`,`That's right. BUT IT'S WROOOONG`,`You shouldn't speak to your friendly neighborhood AI like that`]
+    const AIanswer = arrayOfAnswers[Math.floor(Math.random() * arrayOfAnswers.length)]
+    const input = document.getElementById("userInput").value;
+      const responseDiv = document.getElementById("response");
+
+      // Placeholder response for now
+      responseDiv.innerHTML = AIanswer;
+    }
+  </script>
+
+</body>
+</html>

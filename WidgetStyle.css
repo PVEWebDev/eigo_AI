@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 55px;
+    background-color: #75ace2;
+  }
+
+    /* This part is meant to stylize EVERY basic section in the file*/
+  .section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #501717;
+    border-radius: 8px;
+    background-color: #ffffff;
+  }
+  
+    /* This is the note section, which later on will be a descriptor */
+  #update {
+    background-color: #f0f8ff;
+  }
+  
+
+    /* This is for the text area wherein the prompts/messages for the AI is written*/
+  textarea, input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: grab;
+  }
+  
+    /* The response div. doesn't exist yet */
+  #response {
+    margin-top: 15px;
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 5px;
+    min-height: 50px;
+  }
