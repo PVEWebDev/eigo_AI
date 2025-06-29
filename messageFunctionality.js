@@ -1,5 +1,5 @@
 //import { GoogleGenAI } from "@google/genai";
-//const ai = new GoogleGenAI({ apiKey: "AIzaSyBDRZfeNX3g4O9V3SE59qBxnjupJcWKmpM" });    
+//const ai = new GoogleGenAI({ apiKey: "AI key" });    
     //Below is clean code, written by in collaboration with a LLM model, mainly used to debug or clarify structural issues with the code
       //I currently uses the free tier of Gemini API model 2.5 flash
       import { GoogleGenerativeAI  } from "https://esm.run/@google/generative-ai";
