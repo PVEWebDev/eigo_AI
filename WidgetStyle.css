@@ -35,7 +35,7 @@ body {
     cursor: grab;
   }
   
-    /* The response div. doesn't exist yet */
+    /* The response div, where the text for the AI is supposed to arrive */
   #response {
     margin-top: 15px;
     background-color: #eee;
